@@ -18,8 +18,8 @@ public class Validations {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		
-		System.out.println(driver.getCurrentUrl());
-		System.out.println(driver.getTitle());
+		//System.out.println(driver.getCurrentUrl());
+		//System.out.println(driver.getTitle());
 		
 		String ActualCurrentUrl = "https://mail.rediff.com/cgi-bin/login.cgi";
 		String ExpectedCurrentUrl = driver.getCurrentUrl();
@@ -31,9 +31,12 @@ public class Validations {
 			driver.findElement(By.xpath("//input[contains(@id,'login1')]")).sendKeys("seleniumpanda@rediffmail.com");
 			driver.findElement(By.xpath("//input[contains(@id,'password')]")).sendKeys("Selenium@123");
 			
-			//System.out.println("My Url is correct");
+			//driver.get("https://rediff.com");
+			
 		}else {
 			System.out.println("My Url is not correct");
+			
+			//driver.get("https://google.com");
 		}
 
 	}

@@ -7,8 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Learning_Xpath {
+	//xpath is a address of a web element.
 	
 	public static WebDriver driver;
+	//driver is a global variable here
 	
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();

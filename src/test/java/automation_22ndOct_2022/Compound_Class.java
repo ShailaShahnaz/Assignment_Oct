@@ -15,7 +15,8 @@ public class Compound_Class {
 		driver.manage().window().maximize();
 		driver.get("https://www.rediff.com");
 		driver.findElement(By.className("moneyicon relative")).click();
-		// in this locator class is compound. Compound class has more than one word and they have gap in between.
+		// in this locator class is compound. 
+		//Compound class has more than one class combined together with space in between.
 	
 	}
 

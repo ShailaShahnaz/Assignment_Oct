@@ -1,6 +1,6 @@
 package automation_22ndOct_2022;
 
-public class Assignment_Rediff {
+public class Assignment_Rediff_Xpaths {
 
 	public static void main(String[] args) {
 		//Rediff xpaths
